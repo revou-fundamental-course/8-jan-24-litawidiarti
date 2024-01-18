@@ -1,6 +1,59 @@
-<html>
-    <head> saya </head>
-    <body>
-        <h1>saya adalah got</h1>
-    </body>
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Kalkulator matematik</title>
+    <link rel ="stylesheet" type="text/css" href= " style.css">
+    <script src="hitung_luas_persegi.js"></script>
+
+</head>
+<body>
+    <table border="10" width="50%" >
+        <thead>
+            <tr >
+                <th>
+                    <h1 >KATIK</h1>
+                    <h2>kalkulator matematik</h2>
+                   </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> 
+                    <h3>welcome to katik</h2>
+                    <p1>Hai sobat, selamat datang di katik..</p1>
+                    <p1>sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar</p1>
+                    <h3><button >persegi</button></h3>
+                    <h3><button >persegi panjang</button></h3>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td> 
+                    <h3>Persegi</h3>
+                    <img src="persegi.img" alt="Gambar 1" class="thumbnail" width="25%">
+                    <h4> Rumus luas persegi yaitu :</h4>
+                    <p> L=SxS </p>
+                    <p1> Dimana :</p1>
+                    <p1> L = Luas </p1>
+                    <p1> S = Sisi</p1>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h>Hitung Luas Persegi</h>
+                    <label for="sisi">Masukkan panjang sisi:</label>
+                    <input type="number" id="sisi" placeholder="Masukkan panjang sisi">
+                
+                    <button onclick="hitungLuas()">Hitung Luas</button>
+                
+                    <p id="hasilLuas"></p>
+                    <button onclick="Reset()">Reset</button>
+                </td>
+            </tr>
+            
+        </tbody>
+    </table>
+
+</body>
 </html>

@@ -1,5 +1,26 @@
 h1 {
-    color :blue;
-    font-family: sans-serif;
+    color : black;
+    font-family:Verdana, Geneva, Tahoma;
     text-align: center;
 }
+ h2 {
+    color: black;
+ }
+th{
+    background-color:darkseagreen;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center; /* Teks di tengah */
+}
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+    color:azure;
+    background-color: darkseagreen;
+}
+ h4 {
+    margin-right: 250px;
+ }
